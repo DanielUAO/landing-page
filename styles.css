@@ -1,0 +1,157 @@
+body {
+  font-family: 'Pixelify Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+  background-image: url(https://wallpaperset.com/w/full/a/d/3/125426.jpg);
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  overflow: hidden;
+  font-family: 'Pixelify Sans', sans-serif;
+}
+
+header {
+  background: #333;
+  color: #fff;
+  padding: 40px 0;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 40px;
+}
+
+header p {
+  font-size: 1.2em;
+}
+
+.principal {
+  position: relative;
+}
+
+.principal img {
+  box-shadow: 80px 80px 80px 80px white inset;
+}
+
+.descripcion {
+  background: #fff;
+  padding: 40px 20px;
+  text-align: center;
+  font-family: 'Pixelify Sans', sans-serif;
+}
+
+.descripcion h2 {
+  margin-bottom: 20px;
+}
+
+.descripcion p {
+  font-size: 19px;
+  line-height: 1.6;
+}
+
+.portafolios {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.portafolios h2 {
+  color: #f4f4f4;
+}
+
+.imagen h2 {
+  margin-bottom: 20px;
+}
+
+.ejemplos {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.imagen {
+  width: 30%;
+  height: auto;
+  margin: 10px;
+}
+
+.pasos1 {
+  background: #f9f9f9;
+  padding: 40px 20px;
+}
+
+.pasos1 h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.pasos {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.paso-img {
+  width: 500px;
+  height: 250px;
+  margin-right: 20px;
+}
+
+.paso-contenido {
+  width: 60%;
+}
+
+.paso-contenido h3 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.paso-contenido p {
+  font-size: 19px;
+}
+
+.cta {
+  color: #fff;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.cta h2 {
+  margin-bottom: 20px;
+}
+
+.cta p {
+  font-size: 19px;
+  margin-bottom: 20px;
+}
+
+.cta form {
+  display: inline-block;
+}
+
+.cta input {
+  padding: 10px;
+  margin: 5px;
+  font-size: 1em;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  width: 200px;
+}
+
+.cta button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #555;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.cta button:hover {
+  background-color: #777;
+}
